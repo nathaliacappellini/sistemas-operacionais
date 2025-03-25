@@ -51,13 +51,13 @@ sistemasoperacionais/
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/nathaliacappellini/sistemasoperacionais.git
+git clone https://github.com/nathaliacappellini/sistemas-operacionais.git
 ```
 
 2. Navegue até a pasta do algoritmo desejado:
 
 ```bash
-cd src/io/github/nathaliacappellini/sistemasoperacionais/algoritmos/sjf
+cd src/sistemasoperacionais/algoritmos/sjf
 ```
 
 3. Compile e execute:

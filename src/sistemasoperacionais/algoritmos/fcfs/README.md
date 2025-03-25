@@ -21,13 +21,13 @@ O **FCFS** escalona os processos na ordem em que chegam, sem preempção. O prim
 1. Compilar
 
 ```bash
-javac io/github/nathaliacappellini/sistemasoperacionais/algoritmos/fcfs*.java
+javac sistemasoperacionais/algoritmos/fcfs*.java
 ```
 
 2. Executar
 
 ```bash
-java io.github.nathaliacappellini.sistemasoperacionais.algoritmos.fcfs.Main
+java sistemasoperacionais.algoritmos.fcfs.Main
 ```
 
 ## Referências
