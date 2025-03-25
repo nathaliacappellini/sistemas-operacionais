@@ -1,10 +1,12 @@
 # Sistemas Operacionais em Java
 
-## 📌 Visão Geral do Projeto
+## Visão Geral do Projeto
 
 Este repositório contém implementações em Java dos conceitos estudados em Sistemas Operacionais. O projeto está organizado em pastas temáticas e será continuamente atualizado com novos conteúdos conforme meu aprendizado avança.
 
-## 🗂 Estrutura do Projeto
+---
+
+## Estrutura do Projeto
 
 ```bash
 sistemasoperacionais/
@@ -24,7 +26,9 @@ sistemasoperacionais/
 └── README.md                  
 ```
 
-## 🚀 Funcionalidades Implementadas
+---
+
+## Funcionalidades Implementadas
 
 ### Threads - Simulação de Corrida
 
@@ -34,39 +38,43 @@ sistemasoperacionais/
 
 ### Algoritmos de Escalonamento
 
-#### FCFS (First-Come, First-Served)
+- #### FCFS (First-Come, First-Served)
 
-- Implementação do algoritmo não-preemptivo mais simples
+  - Implementação do algoritmo não-preemptivo mais simples
 
-- Cálculo de tempos de espera
+  - Cálculo de tempos de espera
 
-#### SJF (Shortest Job First)
+- #### SJF (Shortest Job First)
 
-- Versão não-preemptiva do algoritmo
+  - Versão não-preemptiva do algoritmo
 
-- Ordenação de processos por tempo de execução
+  - Ordenação de processos por tempo de execução
 
-## 💻 Como Executar
+---
+
+## Como Executar
 
 1. Clone o repositório:
 
-```bash
-git clone https://github.com/nathaliacappellini/sistemas-operacionais.git
-```
+> ```bash
+> git clone https://github.com/nathaliacappellini/sistemas-operacionais.git
+> ```
 
 2. Navegue até a pasta do algoritmo desejado:
 
-```bash
-cd src/sistemasoperacionais/algoritmos/sjf
-```
+> ```bash
+> cd src/sistemasoperacionais/algoritmos/sjf
+> ```
 
 3. Compile e execute:
 
-```bash
-javac Main.java && java Main
-```
+> ```bash
+> javac Main.java && java Main
+> ```
 
-## 🤝 Contribuições
+---
+
+## Contribuições
 
 Contribuições são bem-vindas! Sinta-se à vontade para:
 

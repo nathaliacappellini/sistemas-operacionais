@@ -19,15 +19,15 @@ Cada carro avança uma distância aleatória entre 1 e 10 km por iteração. A c
 
 1. Compilar:
 
-```bash
-javac sistemasoperacionais/threads/*.java
-```
+> ```bash
+> javac sistemasoperacionais/threads/*.java
+> ```
 
-2. Executar
+2. Executar:
 
-```bash
-java sistemasoperacionais.threads.Carro
-```
+> ```bash
+> java sistemasoperacionais.threads.Carro
+> ```
 
 ## Referências
 
