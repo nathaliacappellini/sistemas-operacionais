@@ -1,12 +1,10 @@
 # Sistemas Operacionais em Java
 
-## Visão Geral do Projeto
+## 📌 Visão Geral do Projeto
 
 Este repositório contém implementações em Java dos conceitos estudados em Sistemas Operacionais. O projeto está organizado em pastas temáticas e será continuamente atualizado com novos conteúdos conforme meu aprendizado avança.
 
----
-
-## Estrutura do Projeto
+## 📃 Estrutura do Projeto
 
 ```bash
 sistemasoperacionais/
@@ -26,9 +24,7 @@ sistemasoperacionais/
 └── README.md                  
 ```
 
----
-
-## Funcionalidades Implementadas
+## 🖊 Funcionalidades Implementadas
 
 ### Threads - Simulação de Corrida
 
@@ -50,9 +46,7 @@ sistemasoperacionais/
 
   - Ordenação de processos por tempo de execução
 
----
-
-## Como Executar
+## 🖥 Como Executar
 
 1. Clone o repositório:
 
@@ -72,9 +66,7 @@ sistemasoperacionais/
 > javac Main.java && java Main
 > ```
 
----
-
-## Contribuições
+## ✨ Contribuições
 
 Contribuições são bem-vindas! Sinta-se à vontade para:
 
