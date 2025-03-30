@@ -53,6 +53,18 @@ sistemasoperacionais/
 
   - Ordenação de processos por tempo de execução
 
+- #### Round Robin
+
+  - Implementação do algoritmo preemptivo com quantum fixo
+
+  - Alternância entre processos de forma cíclica
+
+- #### Escalonamento por Prioridade
+
+  - Versão não-preemptiva do algoritmo
+
+  - Ordenação de processos conforme a prioridade atribuída
+
 ## 🖥 Como Executar
 
 1. Clone o repositório:
