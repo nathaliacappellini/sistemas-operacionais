@@ -1,4 +1,4 @@
-package io.github.nathaliacappellini.sistemasoperacionais.threads;
+package sistemasoperacionais.threads;
 
 public class MainCarro {
     public static void main(String[] args) {

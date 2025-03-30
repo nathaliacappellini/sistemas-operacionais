@@ -1,4 +1,4 @@
-package io.github.nathaliacappellini.sistemasoperacionais.algoritmos.fcfs;
+package sistemasoperacionais.algoritmos.fcfs;
 
 public class FCFS {
     private Processo p1, p2, p3, p4; // Apenas quatro processos suportados

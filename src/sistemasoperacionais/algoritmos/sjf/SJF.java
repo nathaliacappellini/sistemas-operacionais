@@ -1,4 +1,4 @@
-package io.github.nathaliacappellini.sistemasoperacionais.algoritmos.sjf;
+package sistemasoperacionais.algoritmos.sjf;
 
 public class SJF {
     

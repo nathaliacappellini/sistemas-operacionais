@@ -1,4 +1,4 @@
-package io.github.nathaliacappellini.sistemasoperacionais.algoritmos.fcfs;
+package sistemasoperacionais.algoritmos.fcfs;
 
 class Processo { 
     private String id; // Nome do processo

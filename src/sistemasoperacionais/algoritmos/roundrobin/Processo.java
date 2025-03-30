@@ -1,11 +1,12 @@
-package sistemasoperacionais.algoritmos.sjf;
+package sistemasoperacionais.algoritmos.roundrobin;
 
 public class Processo {
+
     private final String id;
-    private final double surto;
+    private int surto;
     private final int tempoChegada;
 
-    public Processo(String id, double surto, int tempoChegada) {
+    public Processo(String id, int surto, int tempoChegada) {
         this.id = id;
         this.surto = surto;
         this.tempoChegada = tempoChegada;
@@ -15,12 +16,16 @@ public class Processo {
         return id;
     }
 
-    public double getSurto() {
+    public int getSurto() {
         return surto;
     }
 
     public int getTempoChegada() {
         return tempoChegada;
+    }
+
+    public void setSurto(int novoSurto){
+        this.surto = novoSurto;
     }
 
     public void exibirInfo() {

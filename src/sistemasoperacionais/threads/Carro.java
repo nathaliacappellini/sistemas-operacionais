@@ -1,4 +1,4 @@
-package io.github.nathaliacappellini.sistemasoperacionais.threads;
+package sistemasoperacionais.threads;
 
 import java.util.Random;
 

@@ -18,18 +18,17 @@ O **SJF** escalona os processos com base no tempo de execução (surto), executa
 
 ## Como Executar?
 
-1. Compilar
+1. Compilar:
 
-```bash
-javac io/github/nathaliacappellini/sistemasoperacionais/algoritmos/sjf*.java
-```
+> ```bash
+> javac sistemasoperacionais/algoritmos/sjf*.java
+> ```
 
-2. Executar
+2. Executar:
 
-```bash
-java io.github.nathaliacappellini.sistemasoperacionais.algoritmos.sjf.Main
-
-```
+> ```bash
+> java sistemasoperacionais.algoritmos.sjf.Main
+> ```
 
 ## Referências
 

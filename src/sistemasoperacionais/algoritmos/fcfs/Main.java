@@ -1,4 +1,4 @@
-package io.github.nathaliacappellini.sistemasoperacionais.algoritmos.fcfs;
+package sistemasoperacionais.algoritmos.fcfs;
 
 public class Main {
     public static void main(String[] args) { // Instânciando processos e escalonador
