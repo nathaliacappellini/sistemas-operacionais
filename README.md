@@ -9,15 +9,22 @@ Este repositório contém implementações em Java dos conceitos estudados em Si
 ```bash
 sistemasoperacionais/
 ├── algoritmos/
-│   ├── fcts/
-│   ├── FCFS.java              
-│   ├── Main.java               
-│   ├── Processo.java           
+│   ├── fcfs/
+│   │   ├── Main.java           
+│   │   ├── Processo.java       
+│   │   └── FCFS.java             
 │   ├── sjf/
 │   │   ├── Main.java           
 │   │   ├── Processo.java       
 │   │   └── SJF.java            
-│   └── (Futuros: Round Robin, Prioridades)
+│   ├── roundrobin/
+│   │   ├── Main.java           
+│   │   ├── Processo.java       
+│   │   └── RoundRobin.java  
+│   ├── prioridade/
+│   │   ├── Main.java           
+│   │   ├── Processo.java       
+│   └── └── Prioridade.java    
 ├── threads/
 │   ├── Carro.java              
 │   └── MainCarro.java          
