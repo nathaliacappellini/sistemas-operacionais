@@ -18,7 +18,9 @@ sistemasoperacionais/
 │   │   └── prioridade/               # Escalonamento por Prioridade
 │   └── threads/                      # Exemplos de Threads  
 ├── gerenciamento_memoria/            # Em desenvolvimento 🚧 
-│   ├── /                                         
+│   ├── best_fit/                                         
+│   ├── first-fit/                                         
+│   └── worst-fit/                                         
 └── README.md          
 ```
 
