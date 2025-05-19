@@ -1,69 +1,42 @@
 # Sistemas Operacionais em Java
 
+Implementações práticas de conceitos de Sistemas Operacionais usando Java.
+
 ## 📌 Visão Geral do Projeto
 
-Este repositório contém implementações em Java dos conceitos estudados em Sistemas Operacionais. O projeto está organizado em pastas temáticas e será continuamente atualizado com novos conteúdos conforme meu aprendizado avança.
+Este repositório contém algoritmos e estruturas fundamentais de Sistemas Operacionais, implementados em Java. O projeto está organizado de forma modular e será continuamente atualizado com novos conteúdos conforme meu aprendizado avança.
 
 ## 📃 Estrutura do Projeto
 
 ```bash
-sistemasoperacionais/
-├── algoritmos/
-│   ├── fcfs/
-│   │   ├── Main.java           
-│   │   ├── Processo.java       
-│   │   └── FCFS.java             
-│   ├── sjf/
-│   │   ├── Main.java           
-│   │   ├── Processo.java       
-│   │   └── SJF.java            
-│   ├── roundrobin/
-│   │   ├── Main.java           
-│   │   ├── Processo.java       
-│   │   └── RoundRobin.java  
-│   ├── prioridade/
-│   │   ├── Main.java           
-│   │   ├── Processo.java       
-│   └── └── Prioridade.java    
-├── threads/
-│   ├── Carro.java              
-│   └── MainCarro.java          
-└── README.md                  
+sistemasoperacionais/  
+├── gerenciamento_processos/            
+│   ├── escalonamento/                  
+│   │   ├── fcfs/                     # First-Come, First-Served
+│   │   ├── sjf/                      # Shortest Job First
+│   │   ├── roundrobin/               # Round Robin
+│   │   └── prioridade/               # Escalonamento por Prioridade
+│   └── threads/                      # Exemplos de Threads  
+├── gerenciamento_memoria/            # Em desenvolvimento 🚧 
+│   ├── /                                         
+└── README.md          
 ```
 
-## 🖊 Funcionalidades Implementadas
+### 📌 Detalhes das Pastas
 
-### Threads - Simulação de Corrida
+- Cada algoritmo de escalonamento possui:
 
-- Demonstração básica de concorrência com threads
+  - `Main.java`: Exemplo executável.
 
-- Cada carro é uma thread competindo em uma corrida
+  - `Processo.java`: Modelo de processo.
 
-### Algoritmos de Escalonamento
+  - Implementação específica (ex: `FCFS.java`).
 
-- #### FCFS (First-Come, First-Served)
+- Para explicações sobre os algoritmos, consulte o `README.md` dentro de cada subpasta.
 
-  - Implementação do algoritmo não-preemptivo mais simples
+## ⚙️ Pré-requisitos
 
-  - Cálculo de tempos de espera
-
-- #### SJF (Shortest Job First)
-
-  - Versão não-preemptiva do algoritmo
-
-  - Ordenação de processos por tempo de execução
-
-- #### Round Robin
-
-  - Implementação do algoritmo preemptivo com quantum fixo
-
-  - Alternância entre processos de forma cíclica
-
-- #### Escalonamento por Prioridade
-
-  - Versão não-preemptiva do algoritmo
-
-  - Ordenação de processos conforme a prioridade atribuída
+- Java JDK 17+ [Download](https://www.oracle.com/java/technologies/downloads/)
 
 ## 🖥 Como Executar
 
@@ -71,30 +44,35 @@ sistemasoperacionais/
 
 > ```bash
 > git clone https://github.com/nathaliacappellini/sistemas-operacionais.git
+> cd sistemas-operacionais/src/sistemasoperacionais
 > ```
 
-2. Navegue até a pasta do algoritmo desejado:
+2. Exemplo: Executar SJF (Shortest Job First)
 
 > ```bash
-> cd src/sistemasoperacionais/algoritmos/sjf
-> ```
-
-3. Compile e execute:
-
-> ```bash
+> # Navegue até a pasta
+> cd gerenciamento_processos/escalonamento/sjf
+> 
+> # Compile e execute
 > javac Main.java && java Main
 > ```
 
 ## ✨ Contribuições
 
-Contribuições são bem-vindas! Sinta-se à vontade para:
+Contribuições são bem-vindas! Siga essas etapas:
 
-- Reportar issues
+1. **Abra uma issue** para discutir a mudança.
 
-- Sugerir melhorias
+2. **Faça um fork** do projeto e crie um branch:
 
-- Enviar pull requests com novas implementações
+> ```bash
+> git checkout -b feature/nova-implementacao
+> ```
+
+3. **Siga o padrão de código existente** (ex: nomes de pastas em minúsculo).
+
+4. **Envie um Pull Request** com uma descrição clara das alterações.
 
 ---
 
-<div align="center">Feito por <a href="https://github.com/nathaliacappellini">Nathi</a>.</div>
+<div align="center">Feito por <a href="https://github.com/nathaliacappellini">Nathalia</a>.</div>
