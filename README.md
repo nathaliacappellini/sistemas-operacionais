@@ -77,4 +77,7 @@ Contribuições são bem-vindas! Siga essas etapas:
 
 ---
 
-<div align="center">Feito por <a href="https://github.com/nathaliacappellini">Nathalia</a>.</div>
+<div align="center">
+  <sub>Feito com 🩷 por</sub><br>
+  <strong><a href="https://github.com/nathaliacappellini" target="_blank">Nathalia Cappellini</a></strong><br>
+</div>
